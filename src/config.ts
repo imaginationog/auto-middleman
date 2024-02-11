@@ -7,25 +7,25 @@ const configPath = './config.json';
 
 const config: ConfigData = {
 	mongo: {
-		url: 'mongodb://localhost:27017',
+		url: 'mongodb+srv://Zig:zigzag@ggscams.dtmoxl4.mongodb.net/',
 		dbName: 'automm',
 	},
 	telegram: {
 		enabled: false,
-		apiId: 0,
-		apiHash: '',
-		botToken: '',
-		accs: [],
+		apiId: 28757012,
+		apiHash: 'e397d7a295c6c2dbcc31dad45b7c6405',
+		botToken: '6599456221:AAGpFS9YAAbHGH4M6NVGOKCRymVp6Vzq1FI',
+		accs: [6066784716],
 		maxUnpaidTickets: 2,
 		groupDescription: 'The Automated Middleman',
-		staff: [],
+		staff: [6066784716],
 		checkMembersDelay: 4000,
-		vouchChannel: undefined,
+		vouchChannel: @AnonMMVouches,
 	},
 	crypto: {
 		accounts: [
 			{
-				mnemonic: '',
+				mnemonic: '0xabf82ff96b463e9d82b83cb9bb450fe87e6166d4db6d7021d0c71d7e960d5abe',
 				dontUse: false,
 			},
 		],
